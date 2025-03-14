@@ -1,3 +1,6 @@
 .container-conversao2{
     background-color: rgb(169, 238, 167);
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
 }

@@ -1,3 +1,6 @@
 .container-estados{
     background-color: rgb(238, 215, 167);
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
 }
