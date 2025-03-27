@@ -1,0 +1,79 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-color: bisque;
+}
+
+#container{
+    height: 100%;
+    background-color:rgb(255, 199, 227);
+    display: flex;
+}
+
+    #esquerda{
+        width: 50%;
+        height: 100%;
+        background-color: darkred;
+    }
+
+        #esquerda-um{
+            height: 15%;
+            width: 100%;
+            background-color: blanchedalmond;
+        }
+
+        #esquerda-dois{
+            height: 15%;
+            width: 100%;
+            background-color: rgb(205, 255, 247);
+            display: flex;
+            justify-content: center;
+            align-items: center;            
+        }
+
+        #esquerda-tres{
+            height: 20%;
+            width: 100%;
+            background-color: rgb(224, 205, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #esquerda-quatro{
+            height: 40%;
+            width: 100%;
+            background-color: rgb(255, 205, 212);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;              
+        }
+
+        #esquerda-cinco{
+            height: 10%;
+            width: 100%;
+            background-color: rgb(205, 255, 213);
+        }
+
+    #direita{
+        width: 50%;
+        height: 100%;
+        background-color:rgb(174, 180, 255);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #label-texto-menor{
+        margin: 10px 0 35px 0;
+    }
+
+    .icones{
+        height: 50%;
+    }
