@@ -1,0 +1,24 @@
+:root {
+    display: flex;
+    align-items: center;
+    background: radial-gradient(circle, hsla(280, 100%, 88%, 1) 25%, hsla(275, 100%, 72%, 1) 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* gap: 20px; */
+}
+
+.container-botao{
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
