@@ -4,6 +4,26 @@
   align-items: flex-start;
   gap: 20px;
   flex-wrap: wrap;
+  padding: 10px;
+}
+
+.cadastro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: blueviolet;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 #root {
