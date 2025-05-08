@@ -1,0 +1,126 @@
+body{
+  background-image: url("/unicorno.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #E4C1F9;
+  padding: 100px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #FF99C8;
+  box-shadow: 10px 10px #A9DEF9;
+}
+
+.titulo {
+  font-size: 90px;
+  color: #FCF6BD;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #FF99C8;
+}
+
+.espaco-imenso{
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin: 30px;
+}
+
+.sub-tit{
+  color: #FCF6BD;
+  font-size: 40px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FF99C8;
+}
+
+.saldo{
+  color: #6e0034;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.input1{
+  background-color: #d3f0ff;
+  height: 25px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.input2{
+  background-color: #d3f0ff;
+  height: 25px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.botao1{
+  font-size: 17px;
+  border-radius: 50px;
+  background-color: #f190be;
+  color: #ffffff;
+  font-weight: bold;
+  height: 45px;
+  width: 150px;
+  margin: 5px;
+}
+
+.botao2{
+  font-size: 17px;
+  border-radius: 50px;
+  background-color: #f190be;
+  color: #ffffff;
+  font-weight: bold;
+  height: 45px;
+  width: 150px;
+  margin: 5px;
+}
+
+.relatorio{
+  color: #6e0034;
+  font-size: 20px;
+  padding: 5px;
+}
+
+/* 
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
