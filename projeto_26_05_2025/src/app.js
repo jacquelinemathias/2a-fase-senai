@@ -8,8 +8,46 @@ app.use(express.json())
 //criar rota
 
 app.get('/estudantesY', (req, res) =>{
-    const sql = 'SELECT * FROM dados_estudantes'
+    const sql = 'SELECT * FROM dados_estudante'
     conexao.query(sql,(erro, resultado) =>{
+        if(erro){
+            console.log(erro)
+        } else {
+            res.json(resultado)
+        }
+    })
+})
+
+
+app.post('/estudantesY', (req, res) =>{
+    const estudante = req.body
+    const sql = 'INSERT INTO dados_estudante SET ?'
+    conexao.query(sql, estudante, (erro, resultado) =>{
+        if(erro){
+            console.log(erro)
+        } else {
+            res.json(resultado)
+        }
+    })
+})
+
+app.delete('/estudantesY/:id', (req, res) =>{
+    const id = req.params.id
+    const sql = 'DELETE FROM dados_estudante WHERE id_estudante=?'
+    conexao.query(sql, id, (erro, resultado) =>{
+        if(erro){
+            console.log(erro)
+        } else {
+            res.json(resultado)
+        }
+    })
+})
+
+app.put('/estudantesY/:id', (req, res) =>{
+    const id = req.params.id
+    const estudante = req.body
+    const sql = 'UPDATE dados_estudante SET ? WHERE id_estudante=?'
+    conexao.query(sql, [estudante, id], (erro, resultado) =>{
         if(erro){
             console.log(erro)
         } else {

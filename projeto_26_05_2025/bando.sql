@@ -13,3 +13,5 @@ INSERT INTO dados_estudante (nome, matricula)
 VALUES
 ('Jacqueline Mathias', '001'),
 ('João da Silva', '002');
+
+SELECT * FROM dados_estudante;
